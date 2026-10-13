@@ -1,0 +1,14 @@
+{
+  "appName": "Veyronix",
+  "project": "Veyronix v10 Automobile Sales & Management System",
+  "deployment": "GitHub Pages",
+  "mode": "standalone",
+  "apiEnabled": false,
+  "storage": "browser-localStorage",
+  "notes": [
+    "This config documents the current static demo mode. The current index.html does not load config.json at runtime.",
+    "Customer and dealership data are stored only in the browser/device that created them.",
+    "Shared data across visitors requires a real backend/API or Supabase integration.",
+    "Do not put private API keys or Supabase service-role keys in this file."
+  ]
+}
